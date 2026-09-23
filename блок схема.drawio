@@ -1,0 +1,73 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Страница-1" id="LgqilVLWBif7JmmQb1ZW">
+    <mxGraphModel dx="1406" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jVGMu1M7yWkULiGMGp5c-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fontSize=20;fontFamily=Times New Roman;fillColor=light-dark(#FFFFFF,#FFFF33);fontColor=light-dark(#000000,#000000);" value="Начало" vertex="1">
+          <mxGeometry height="120" width="160" x="320" as="geometry" />
+        </mxCell>
+        <mxCell id="jVGMu1M7yWkULiGMGp5c-4" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="400" y="120" as="sourcePoint" />
+            <mxPoint x="400" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jVGMu1M7yWkULiGMGp5c-5" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fontSize=20;verticalAlign=top;fontFamily=Times New Roman;labelBorderColor=none;fontColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#CCFFFF);" value="sweets, cookies, apples" vertex="1">
+          <mxGeometry height="70" width="220" x="290" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="jVGMu1M7yWkULiGMGp5c-10" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.76;exitY=0.967;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="jVGMu1M7yWkULiGMGp5c-14" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="402" y="228.01999999999998" as="sourcePoint" />
+            <mxPoint x="402" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jVGMu1M7yWkULiGMGp5c-14" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fontSize=20;verticalAlign=top;align=center;fontFamily=Times New Roman;fontColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#CCFFFF);" value="sweets_1, cookies_1, apples_1" vertex="1">
+          <mxGeometry height="70" width="220" x="290" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="jVGMu1M7yWkULiGMGp5c-17" edge="1" parent="1" source="jVGMu1M7yWkULiGMGp5c-14" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="400" y="360" as="sourcePoint" />
+            <mxPoint x="400" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jVGMu1M7yWkULiGMGp5c-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=20;fontFamily=Times New Roman;fontColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#CCFFFF);" value="x=sweets*sweets_1, y=cookies*cookies_1, c=apples*apples_1" vertex="1">
+          <mxGeometry height="90" width="220" x="290" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="jVGMu1M7yWkULiGMGp5c-20" edge="1" parent="1" source="jVGMu1M7yWkULiGMGp5c-19" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="400" y="500" as="sourcePoint" />
+            <mxPoint x="400" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jVGMu1M7yWkULiGMGp5c-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Times New Roman;fontColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#CCFFFF);" value="all=x+y+c" vertex="1">
+          <mxGeometry height="80" width="220" x="290" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="jVGMu1M7yWkULiGMGp5c-22" edge="1" parent="1" source="jVGMu1M7yWkULiGMGp5c-21" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="400" y="630" as="sourcePoint" />
+            <mxPoint x="400" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jVGMu1M7yWkULiGMGp5c-23" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fontSize=20;fontFamily=Times New Roman;fontColor=light-dark(#000000,#000000);fillColor=light-dark(#FFFFFF,#CCFFFF);" value="all" vertex="1">
+          <mxGeometry height="70" width="170" x="310" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="jVGMu1M7yWkULiGMGp5c-25" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="400" y="740" as="sourcePoint" />
+            <mxPoint x="400" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jVGMu1M7yWkULiGMGp5c-26" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fontSize=20;fontFamily=Times New Roman;fontColor=light-dark(#000000,#000000);gradientColor=none;fillColor=light-dark(#FFFFFF,#FFFF00);" value="Конец" vertex="1">
+          <mxGeometry height="90" width="130" x="335" y="780" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
