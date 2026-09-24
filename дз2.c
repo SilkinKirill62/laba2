@@ -7,9 +7,9 @@ int main() {
 	int cookies = 3;
 	int apples = 15;
 	// Стоимость за 1 кг каждого продукта
-	float sweets_1 = 170.0;
-	float cookies_1 = 120.0;
-	float apples_1 = 100.0;
+	float sweets_1 = 170.5;
+	float cookies_1 = 120.5;
+	float apples_1 = 100.3;
 	// Нахождение стоимости продукта одного продукта
 	float x = sweets * sweets_1;
 	float y = cookies * cookies_1;
